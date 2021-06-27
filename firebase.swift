@@ -14,7 +14,7 @@ import FirebaseFirestore
 import Firebase
 
 func readFirebaseData(){
-   self.db.collection("GardeningStuff").getDocuments { (snapshot, err) in
+   self.db.collection("Prideflagdata").getDocuments { (snapshot, err) in
    if let err = err {
        print("Error getting documents: \(err)")
    }
